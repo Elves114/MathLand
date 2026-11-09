@@ -1,0 +1,95 @@
+# ============================================
+# MathLand - .gitignore
+# ============================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# Distribuição / empacotamento
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Instalações diretas
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ---------- Testes e cobertura ----------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.cache/
+
+# ---------- Segredos / config local ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# ---------- Node / Frontend ----------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+.nuxt/
+.next/
+.cache/
+*.tsbuildinfo
+
+# ---------- Flask / Werkzeug ----------
+instance/
+instance.py
+
+# ---------- Editor / IDE ----------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ---------- Sistema operacional ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---------- Logs ----------
+*.log
+logs/
