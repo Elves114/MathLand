@@ -5,7 +5,7 @@ intermediário.
 
 - **Backend:** Python + [Flask](https://flask.palletsprojects.com/) (API REST)
 - **Frontend:** HTML + CSS + JavaScript **puros** (sem frameworks)
-- **Localização:** `/home/Correia/Developer/fullstack/projetos random/primeiro/calculadora-matematica`
+- **Localização:** `/home/Correia/Developer/fullstack/projetos random/primeiro/MathLand/calculadora-matematica`
 
 ---
 
